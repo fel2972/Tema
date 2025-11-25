@@ -21,10 +21,10 @@ btn.addEventListener("click", () => {
 function applyTheme(mode) {
     if (mode === "dark") {
         body.classList.add("dark");
-        icon.src = "images/moon.png"; // ไอคอนโหมดมืด
+        icon.src = "moon.png"; // ไอคอนโหมดมืด
     } else {
         body.classList.remove("dark");
-        icon.src = "images/sun.png"; // ไอคอนโหมดสว่าง
+        icon.src = "sun.png"; // ไอคอนโหมดสว่าง
     }
 }
 // theme.js (เพิ่มส่วนนี้เข้าไปด้านล่างได้เลย)
@@ -45,3 +45,4 @@ function applyTheme(mode) {
         // ถ้ามี error ไม่ต้องทำอะไร ปล่อยใช้ค่า default
     }
 })();
+
